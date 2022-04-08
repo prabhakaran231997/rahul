@@ -15,6 +15,9 @@ public class BankInfo {
 	}
 	public static void main(String[] args) {
 		System.out.println("master");
+		BankInfo bi = new BankInfo();
+		bi.deposit();
+		
 	}
 
 }
